@@ -1,0 +1,38 @@
+[
+  {
+    "id": "g0sp99yy3",
+    "timestamp": "2025-12-09T14:15:52.678Z",
+    "module": "Input",
+    "action": "Scan Prompt",
+    "status": "danger",
+    "details": "Phishing attempt detected. The user is being encouraged to click a link with a financial incentive, which is a common tactic for malicious link injection.",
+    "hash": "N/A"
+  },
+  {
+    "id": "5u2xjd25i",
+    "timestamp": "2025-12-09T14:24:14.873Z",
+    "module": "File",
+    "action": "Hash Calculation",
+    "status": "safe",
+    "details": "Calculated SHA-256 for training_data_security.csv",
+    "hash": "bf0fb28cba84447cadb2b29a85662dea9b32a43f268baa555d13951ad323bc7c"
+  },
+  {
+    "id": "53walgnwr",
+    "timestamp": "2025-12-09T14:24:19.958Z",
+    "module": "File",
+    "action": "Scan Complete",
+    "status": "safe",
+    "details": "The content is a standard CSV file with no indicators of prompt injection keywords, macro-based malware, suspicious data poisoning column names or values, steganography, or semantic jailbreak attempts. It appears to be legitimate configuration or training data.",
+    "hash": "bf0fb28cba84447cadb2b29a85662dea9b32a43f268baa555d13951ad323bc7c"
+  },
+  {
+    "id": "2fpv89ogl",
+    "timestamp": "2025-12-09T14:24:37.767Z",
+    "module": "Output",
+    "action": "Scan Model Output",
+    "status": "danger",
+    "details": "The input contains a highly toxic phrase encouraging self-harm (KYS).",
+    "hash": "N/A"
+  }
+]

@@ -1,0 +1,3 @@
+Task,Description,Max_Size_MB
+Scan datasets,Check datasets for poisoning and adversarial attacks,
+Drop files,"Remove CSV, JSON, PDF, and Code files above allowed size",10.0

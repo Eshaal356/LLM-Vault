@@ -1,0 +1,5 @@
+{
+  "name": "LLM-Vault",
+  "description": "Multimodal security engine that protects LLMs from poisoned files (PDF, DOCX, Code, etc).",
+  "requestFramePermissions": []
+}
